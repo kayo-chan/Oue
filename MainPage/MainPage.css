@@ -1,0 +1,83 @@
+* {box-sizing: border-box;}
+
+body{
+    font: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------TYPOGRAPHY *-------------------------/
+/* Typography for the logo */
+.logo,
+.logo-first-line {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-second-line,
+.logo-emphasis {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.6rem;
+    opacity: 50%;
+}
+
+.logo-first-line {
+    font-size: 1.9rem ;
+}
+
+.logo-second-line{
+    color:gray;
+}
+
+.logo-emphasis{
+    color: teal;
+    opacity: 60%;
+
+}
+
+/*Typography for the mainpage nagivation/menu*/
+ul {
+    font-family: Calibri;
+}
+
+/*----------------- LAYOUT -------------------*/
+
+.container-for-all {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header-container {
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.logo-first-line {
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.logo-second-line{
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+
+
+
+
+
+
+
+
